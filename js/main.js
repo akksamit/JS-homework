@@ -22,6 +22,8 @@ const renderPage = (list) => {
     document.querySelector('.products').insertAdjacentHTML("beforeend", list.map(item => renderProduct(item)).join(''))
 };
 
+// Запятые убрались, но сломал передачу значений
+
 // const renderPage = list => {
 //     const productsList = list.map(item => renderProduct(item.title,item.price));
 //     console.log(productsList);
